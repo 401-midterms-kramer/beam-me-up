@@ -34,28 +34,24 @@ Default output format [text]:
 ```
   - enter your access key when prompted and same for your secret access key
   - region should be us-west-2 for this demo
-  - clone down this repo locally 
+  
+  - run from your command line/terminal
+  ``` 
+  npm i @project-jetpack/beam-me-up -g
   ```
-  git clone https://github.com/401-midterms-kramer/beam-me-up
-  ```
-  - cd into the directory 
-  ```
-  cd beam_me_up
-  ```
-  - run an npm i
-  ```
-  npm install
-  ```
+
   - **TECH DEBT** make sure the terminate line in app.js is commented out (line 16 app.js)
   - run the node command to create a server from our pre-formatted ami[^1]
+
   ```
-node app.js
+beam-me-up-pem ; beam-me-up-EC2
   ```
+
   - **TECH DEBT** this may return a DNS name or it may not no biggie
   - Go back to the AWS EC2 console and select the newly launching instance
   - Click the instances checkbox
   - Click on the security group settings (**launch-wizard-1** in this case)
-  ![img](resources/securitynav.png)
+  ![image](resources/securitynav.png)
   - Click on inbound rules
   - Modify the instances security group rules to match these (port 22 rule is optional)
 ![img](resources/securitygroups.png)
@@ -67,7 +63,7 @@ node app.js
 - After completing above getting set up steps 
 - **TECH DEBT** run 
 ```
-node promt-commands/prompt-inquirer/prompt-inquirer.js 
+beam-me-up
 ```
 - This will prompt you for a github repo the proper syntax for this entry is[^2]
 ```
