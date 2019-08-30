@@ -4,7 +4,7 @@
   "description": "Creating a package to automate deployment to AWS",
   "main": "./promt-commands/prompt-inquirer/prompt-inquirer.js",
   "bin": {
-    "launch-beam-me-up": "./promt-commands/prompt-inquirer/prompt-inquirer.js"
+    "beam-me-up": "./promt-commands/prompt-inquirer/prompt-inquirer.js"
   },
   "scripts": {
     "start": "node ./promt-commands/prompt-inquirer/prompt-inquirer.js",
@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/401-midterms-kramer/beam-me-up.git"
   },
-  "author": "Adriana Graybill",
+  "authors": "Adriana Graybill, Lee-Roy King, Brandyn Vay, and Liz Kavalski",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/401-midterms-kramer/beam-me-up/issues"

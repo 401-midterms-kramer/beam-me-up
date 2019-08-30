@@ -34,18 +34,12 @@ Default output format [text]:
 ```
   - enter your access key when prompted and same for your secret access key
   - region should be us-west-2 for this demo
-  - clone down this repo locally 
+  
+  - run from your command line/terminal
+  ``` 
+  npm i @project-jetpack/beam-me-up -g
   ```
-  git clone https://github.com/401-midterms-kramer/beam-me-up
-  ```
-  - cd into the directory 
-  ```
-  cd beam_me_up
-  ```
-  - run an npm i
-  ```
-  npm install
-  ```
+
   - **TECH DEBT** make sure the terminate line in app.js is commented out (line 16 app.js)
   - run the node command to create a server from our pre-formatted ami[^1]
   ```
