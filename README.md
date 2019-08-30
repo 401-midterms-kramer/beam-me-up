@@ -67,7 +67,9 @@ node app.js
 - After completing above getting set up steps 
 - **TECH DEBT** run 
 ```
-node promt-commands/prompt-inquirer/prompt-inquirer.js 
+node promt-commands/prompt-inquirer/prompt-inquirer.js
+OR
+npm start
 ```
 - This will prompt you for a github repo the proper syntax for this entry is[^2]
 ```
