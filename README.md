@@ -42,14 +42,16 @@ Default output format [text]:
 
   - **TECH DEBT** make sure the terminate line in app.js is commented out (line 16 app.js)
   - run the node command to create a server from our pre-formatted ami[^1]
+
   ```
-node app.js
+beam-me-up-pem ; beam-me-up-EC2
   ```
+
   - **TECH DEBT** this may return a DNS name or it may not no biggie
   - Go back to the AWS EC2 console and select the newly launching instance
   - Click the instances checkbox
   - Click on the security group settings (**launch-wizard-1** in this case)
-  ![img](resources/securitynav.png)
+  ![](resources/securitynav.png | width=200)
   - Click on inbound rules
   - Modify the instances security group rules to match these (port 22 rule is optional)
 ![img](resources/securitygroups.png)
@@ -61,7 +63,7 @@ node app.js
 - After completing above getting set up steps 
 - **TECH DEBT** run 
 ```
-node promt-commands/prompt-inquirer/prompt-inquirer.js 
+beam-me-up
 ```
 - This will prompt you for a github repo the proper syntax for this entry is[^2]
 ```

@@ -4,7 +4,9 @@
   "description": "Creating a package to automate deployment to AWS",
   "main": "./promt-commands/prompt-inquirer/prompt-inquirer.js",
   "bin": {
-    "beam-me-up": "./promt-commands/prompt-inquirer/prompt-inquirer.js"
+    "beam-me-up": "./promt-commands/prompt-inquirer/prompt-inquirer.js",
+    "beam-me-up-pem": "./aws-commands/createKeyPair.js",
+    "beam-me-up-EC2": "./app.js"
   },
   "scripts": {
     "start": "node ./promt-commands/prompt-inquirer/prompt-inquirer.js",

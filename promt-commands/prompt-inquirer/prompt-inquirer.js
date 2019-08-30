@@ -30,7 +30,7 @@ let questions = [
     name: 'dot-env-file',
     message: 'Do you have a env file that you want to upload(Y/N)',
     default: 'No dot-env-file has been selected',
-    choices: ['Yes', 'No'],
+    choices: ['No', 'Yes'],
     validate: function (value) {
       if (value !== "Yes" || "No") {
         return 'Please enter "Y" for yes or "N" of no'
