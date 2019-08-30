@@ -51,7 +51,7 @@ beam-me-up-pem ; beam-me-up-EC2
   - Go back to the AWS EC2 console and select the newly launching instance
   - Click the instances checkbox
   - Click on the security group settings (**launch-wizard-1** in this case)
-  ![](resources/securitynav.png | width=200)
+  ![image](resources/securitynav.png)
   - Click on inbound rules
   - Modify the instances security group rules to match these (port 22 rule is optional)
 ![img](resources/securitygroups.png)
