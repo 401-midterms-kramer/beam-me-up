@@ -2,9 +2,12 @@
   "name": "@project-jetpack/beam-me-up",
   "version": "1.0.0",
   "description": "Creating a package to automate deployment to AWS",
-  "main": "server.js",
+  "main": "./promt-commands/prompt-inquirer/prompt-inquirer.js",
+  "bin": {
+    "launch-beam-me-up":"./promt-commands/prompt-inquirer/prompt-inquirer.js"
+  },
   "scripts": {
-    "start": "node server.js",
+    "start": "node ./promt-commands/prompt-inquirer/prompt-inquirer.js",
     "test": "jest --verbose --coverage"
   },
   "repository": {
@@ -16,5 +19,15 @@
   "bugs": {
     "url": "https://github.com/401-midterms-kramer/beam-me-up/issues"
   },
-  "homepage": "https://github.com/401-midterms-kramer/beam-me-up#readme"
+  "homepage": "https://github.com/401-midterms-kramer/beam-me-up#readme",
+  "dependencies": {
+    "aws-sdk": "2.514.0",
+    "dotenv": "^8.1.0",
+    "inquirer": "^7.0.0",
+    "superagent": "^5.1.0"
+  },
+  "devDependencies": {
+    "aws-sdk-mock": "^4.5.0",
+    "supertest": "^4.0.2"
+  }
 }
