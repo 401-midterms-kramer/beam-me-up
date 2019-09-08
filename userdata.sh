@@ -8,3 +8,5 @@ git clone https://github.com/401-midterms-kramer/beam-me-up_server
 npm i pm2 -g
 cd beam-me-up_server
 npm install
+
+
