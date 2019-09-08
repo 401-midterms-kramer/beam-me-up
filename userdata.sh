@@ -31,6 +31,6 @@ sudo systemctl enable mongodb
 
 cd beam-me-up_server
 echo "MONGODB_URI=mongodb://localhost:27017/beam-me-up" > .env
+sudo env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup systemd -u ubuntu --hp /home/ubuntu
 npm install
-pm2 start index.js
-
+pm2 start index.js --name beam-me-up_server
