@@ -1,6 +1,6 @@
 {
   "name": "@project-jetpack/beam-me-up",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Creating a package to automate deployment to AWS",
   "main": "./promt-commands/prompt-inquirer/prompt-inquirer.js",
   "bin": {
