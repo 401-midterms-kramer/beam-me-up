@@ -1,6 +1,6 @@
 # Beam-me-up
 ## A project for hacky heroku replacement
-### WARNING: This project was made for a school project and is considered extrmely insecure by its authors see below for details[^1]
+### WARNING: This project was made for a school project and is considered extremely insecure by its authors see below for details[^1]
 
 ### Requirements
   - AWS account
